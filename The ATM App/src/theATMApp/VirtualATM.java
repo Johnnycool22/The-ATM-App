@@ -10,7 +10,7 @@ public class VirtualATM {
 	private static double overdraft = 100;
 	private static int anotherWithdrawal;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IllegalArgumentException {
 		input = new Scanner(System.in);
 
 		selection();
