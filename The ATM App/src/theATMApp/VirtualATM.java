@@ -97,7 +97,7 @@ public class VirtualATM extends NotesType {
 			float amount;
 			System.out.println("Please enter your cash withdrawal amount: ");
 			amount = input.nextFloat();
-			if (amount > balance || amount > balance + overdraft) {
+			if (amount > balance + overdraft) {
 				System.out.println("You have overdrawn!! £100 maximum allowable\n\n");
 				withdrawal();
 			} else {
