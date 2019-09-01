@@ -1,0 +1,11 @@
+#1 Two individual Java programs have been created using Eclipse IDE. 
+   The VirtualATM.java program provides options to displaying the initial balance + overdraft, withdrawal option for the three transactions £140, £50 & £90 and displays reducing balance. Final balance display negative, indicating the overdrawn condition.
+   If an amount greater than balance + £100 overdraft is entered then an overdrawn alert message appears.
+   The mix of notes is covered in the other program NotesType.java.
+
+#2 NotesType.java program prompts the user with the balance and option to enter an amount. If £140, £50 or £90 is entered the denomination mix should be shown with each transaction. Program needs to be run again for each transaction.
+
+#3 Issues: 
+Getting the two programs to work as one program was challenging, tried to get class methods inherited but wasn't working correctly so decided to keep them as two java programs.
+To use these two programs with Angular requires endpoints from a REST API like Springboot. To create this and successfully function would take more time to complete. (I have experience creating a SpringBoot API before using IntelliJ IDE to connect Angular 8 Frontend to MongoDB cloud database).
+			 
